@@ -1,0 +1,11 @@
+Each csv file should have the following structure:
+is.singular (1 if tree is singular, 0 if is a regular tree)
+source_db ( (a string that identifies from where the data has been obtained))
+tree_id (a number to identify the tree) ///// THIS IS GOING TO BE SOURCE_DB+NUMBER
+tree_code (could be the name of the plot or any other relevant information about the tree) ///// WE ARE GOING TO DELETE THIS
+tree_genus (latin name) //// WE ARE GOING TO JOIN GENUS+SPECIES IN ONE COLUMN
+tree_species (latin name)
+dbh (diameter in cm)
+ht (height in meters)
+longitude (longitude WGS 84 CRS=EPSG:4326)
+latitude (latitude WGS 84 CRS=EPSG:4326)
